@@ -1,0 +1,21 @@
+stepped_frequency_fft:
+  name: acquire_m4s_cband
+  frequency:
+    - 3361.52e6
+    - 3384.51e6
+    - 3407.50e6
+    - 3430.49e6
+    - 3453.48e6
+    - 3476.47e6
+    - 3499.46e6
+    - 3522.45e6
+    - 3545.44e6
+    - 3568.43e6
+    - 3591.42e6
+  gain: 60
+  sample_rate: 23.04e6
+  fft_size: 1024
+  nffts: 300
+  nskip: 23.04e4
+  classification: UNCLASSIFIED
+  calibration_adjust: False
