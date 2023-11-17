@@ -1,5 +1,5 @@
 stepped_frequency_fft:
-  name: acquire_m4s_cband
+  name: acquire_m4s_cband_stepped
   frequency:
     - 3361.52e6
     - 3384.51e6
