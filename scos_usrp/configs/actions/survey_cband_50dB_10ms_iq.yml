@@ -1,0 +1,12 @@
+stepped_frequency_time_domain_iq:
+  name: survey_cband_50dB_10ms_iq
+  frequency:
+    - 3375e6
+    - 3425e6
+    - 3475e6
+  gain: 50
+  sample_rate: 50e6
+  duration_ms: 10
+  nskip: 50e6
+  classification: UNCLASSIFIED
+  calibration_adjust: False
