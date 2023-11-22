@@ -27,7 +27,7 @@ logger.debug(f"USRP_CONNECTION_ARGS = {settings.USRP_CONNECTION_ARGS}")
 
 # Testing determined these gain values provide a good mix of sensitivity and
 # dynamic range performance
-VALID_GAINS = (0, 20, 40, 60)
+VALID_GAINS = tuple(range(77))
 
 
 class USRPSignalAnalyzer(SignalAnalyzerInterface):

@@ -1,0 +1,10 @@
+single_frequency_fft:
+  name: acquire_m4s_cband_45_562_4096_8
+  frequency: 3545440000.0
+  gain: 45
+  sample_rate: 23040000.0
+  fft_size: 4096
+  nffts: 562
+  nskip: 230400
+  classification: UNCLASSIFIED
+  calibration_adjust: false
